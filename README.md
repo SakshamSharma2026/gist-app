@@ -4,9 +4,9 @@
 
 <br>
 
-<a href="../../releases/download/v1.0.0/gist.apk"><img src="https://img.shields.io/badge/DOWNLOAD%20APK-e2f26b?style=for-the-badge&logo=android&logoColor=15102e&labelColor=e2f26b&color=e2f26b" alt="Download APK" height="44"></a>
+<a href="https://github.com/SakshamSharma2026/gist-app/releases/download/v1.0.0/gist_v1.0.0.apk"><img src="https://img.shields.io/badge/DOWNLOAD%20APK-e2f26b?style=for-the-badge&logo=android&logoColor=15102e&labelColor=e2f26b&color=e2f26b" alt="Download APK" height="44"></a>
 &nbsp;
-<a href="../../releases"><img src="https://img.shields.io/github/v/release/OWNER/gist-app?style=for-the-badge&label=latest&labelColor=15102e&color=6c4ef0" alt="Latest release" height="44"></a>
+<a href="https://github.com/SakshamSharma2026/gist-app/releases/latest"><img src="https://img.shields.io/github/v/release/SakshamSharma2026/gist-app?style=for-the-badge&label=latest&labelColor=15102e&color=6c4ef0" alt="Latest release" height="44"></a>
 
 <br><br>
 
@@ -59,11 +59,18 @@ Type a question like you'd text a friend: *"How much have I spent this month?"* 
 
 ### You
 **Reads bank SMS. Stays on your phone.**<br>
-Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 days in one tap. Add cash spends by hand.
+Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 days in one tap, or bring in bank statements as CSV or PDF. Add cash spends by hand.
 
 </td>
 </tr>
 </table>
+
+### Also in v1.0
+
+- **Transfers aren't spending.** Money moved to investments or used to pay card bills is tracked separately, so it doesn't inflate your spend.
+- **Subscriptions, found.** Gist spots your subscriptions, shows what each costs a year, and flags when a price goes up.
+- **Money between people.** Keeps track of what moves between you and the people you pay.
+- **Statement import.** Import bank statements from CSV or PDF.
 
 <br>
 
@@ -73,18 +80,19 @@ Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 da
 
 | | Step | What to do |
 |:-:|---|---|
-| **1** | **Download** | On your Android phone, tap [**Download APK**](../../releases/download/v1.0.0/gist.apk). |
+| **1** | **Download** | On your Android phone, tap [**Download APK**](https://github.com/SakshamSharma2026/gist-app/releases/download/v1.0.0/gist_v1.0.0.apk). |
 | **2** | **Allow the install** | Android asks if your browser can install apps. Tap **Settings → Allow from this source**, go back, tap **Install**. If Play Protect shows a warning, tap **More details → Install anyway**. |
 | **3** | **Allow restricted settings** | Android blocks SMS access for apps installed outside the Play Store. Open Gist and try turning on **Bank SMS** once. You'll see *"App was denied access"*. Tap **Close**, then go to **Settings → Apps → Gist → ⋮ (top right) → Allow restricted settings** and confirm with your fingerprint or PIN. |
 | **4** | **Turn on Bank SMS** | Back in Gist, turn on **Bank SMS** and tap **Allow**, then tap **Import last 90 days**. Your Today screen fills up right away. |
 
-**Updating:** download the latest APK from [Releases](../../releases) and install it over the old one. Your data stays.
+**Updating:** download the latest APK from [Releases](https://github.com/SakshamSharma2026/gist-app/releases/latest) and install it over the old one. Your data stays.
 
 <br>
 
 ## ✦ Privacy
 
-- **Local-first.** Your ledger lives on your phone.
+- **No account.** No sign-up, no login.
+- **Local-first and encrypted.** Your ledger is encrypted and stays on your phone.
 - **On-device answers.** Ask works things out from the transactions stored on your phone.
 - **Bank SMS only when you say so.** You turn on SMS logging in the **You** tab and can turn it off any time. Gist uses SMS access only to log your bank alerts.
 
@@ -101,7 +109,7 @@ Not yet. The APK here is the same app. If a Play Store version comes later, you 
 <details>
 <summary><b>Is the APK safe to install?</b></summary>
 <br>
-Download it only from this repo's <a href="../../releases">Releases</a> page. Play Protect may warn you because the app isn't from the Play Store. That's expected for apps installed directly. Every version is signed with the same key, so updates install over the old version cleanly.
+Download it only from this repo's <a href="https://github.com/SakshamSharma2026/gist-app/releases/latest">Releases</a> page. Play Protect may warn you because the app isn't from the Play Store. That's expected for apps installed directly. Every version is signed with the same key, so updates install over the old version cleanly.
 </details>
 
 <details>
@@ -127,7 +135,7 @@ Android phones. There's no iPhone version.
 <details>
 <summary><b>Found a bug or have an idea?</b></summary>
 <br>
-Open an <a href="../../issues">issue</a>. Screenshots help.
+Open an <a href="https://github.com/SakshamSharma2026/gist-app/issues">issue</a>. Screenshots help.
 </details>
 
 <br>
