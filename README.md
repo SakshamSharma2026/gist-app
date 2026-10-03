@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="../../releases/latest/download/gist.apk"><img src="https://img.shields.io/badge/DOWNLOAD%20APK-e2f26b?style=for-the-badge&logo=android&logoColor=15102e&labelColor=e2f26b&color=e2f26b" alt="Download APK" height="44"></a>
+<a href="../../releases/download/v1.0.0/gist.apk"><img src="https://img.shields.io/badge/DOWNLOAD%20APK-e2f26b?style=for-the-badge&logo=android&logoColor=15102e&labelColor=e2f26b&color=e2f26b" alt="Download APK" height="44"></a>
 &nbsp;
 <a href="../../releases"><img src="https://img.shields.io/github/v/release/OWNER/gist-app?style=for-the-badge&label=latest&labelColor=15102e&color=6c4ef0" alt="Latest release" height="44"></a>
 
@@ -73,7 +73,7 @@ Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 da
 
 | | Step | What to do |
 |:-:|---|---|
-| **1** | **Download** | On your Android phone, tap [**Download APK**](../../releases/latest/download/gist.apk). |
+| **1** | **Download** | On your Android phone, tap [**Download APK**](../../releases/download/v1.0.0/gist.apk). |
 | **2** | **Allow the install** | Android asks if your browser can install apps. Tap **Settings → Allow from this source**, go back, tap **Install**. If Play Protect shows a warning, tap **More details → Install anyway**. |
 | **3** | **Allow restricted settings** | Android blocks SMS access for apps installed outside the Play Store. Open Gist and try turning on **Bank SMS** once. You'll see *"App was denied access"*. Tap **Close**, then go to **Settings → Apps → Gist → ⋮ (top right) → Allow restricted settings** and confirm with your fingerprint or PIN. |
 | **4** | **Turn on Bank SMS** | Back in Gist, turn on **Bank SMS** and tap **Allow**, then tap **Import last 90 days**. Your Today screen fills up right away. |
