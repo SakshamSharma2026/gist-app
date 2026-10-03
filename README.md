@@ -36,7 +36,7 @@ Gist reads your bank SMS, logs every spend on its own, and tells you where your 
 
 ### Today
 **Know your pace, not just your total.**<br>
-See what you've spent so far against what you usually spend by this day of the month. You find out you're running hot on the 26th, not after the month ends.
+See what you've spent so far against your usual for this day of the month, and what's driving it. You find out you're running hot on the 26th, not after the month ends. One-off big spends are kept separate so they don't skew your pace.
 
 </td>
 <td width="50%" valign="top">
@@ -74,8 +74,9 @@ Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 da
 | | Step | What to do |
 |:-:|---|---|
 | **1** | **Download** | On your Android phone, tap [**Download APK**](../../releases/latest/download/gist.apk). |
-| **2** | **Allow the install** | Android asks if your browser can install apps. Tap **Settings → Allow from this source**, go back, tap **Install**. |
-| **3** | **Turn on Bank SMS** | Open Gist, allow SMS access, tap **Import last 90 days**. Your Today screen fills up right away. |
+| **2** | **Allow the install** | Android asks if your browser can install apps. Tap **Settings → Allow from this source**, go back, tap **Install**. If Play Protect shows a warning, tap **More details → Install anyway**. |
+| **3** | **Allow restricted settings** | Android blocks SMS access for apps installed outside the Play Store. Open Gist and try turning on **Bank SMS** once. You'll see *"App was denied access"*. Tap **Close**, then go to **Settings → Apps → Gist → ⋮ (top right) → Allow restricted settings** and confirm with your fingerprint or PIN. |
+| **4** | **Turn on Bank SMS** | Back in Gist, turn on **Bank SMS** and tap **Allow**, then tap **Import last 90 days**. Your Today screen fills up right away. |
 
 **Updating:** download the latest APK from [Releases](../../releases) and install it over the old one. Your data stays.
 
@@ -85,7 +86,7 @@ Turn on Bank SMS and new alerts are logged as they arrive. Import the last 90 da
 
 - **Local-first.** Your ledger lives on your phone.
 - **On-device answers.** Ask works things out from the transactions stored on your phone.
-- **Bank SMS only when you say so.** You turn on SMS logging in the **You** tab and can turn it off any time.
+- **Bank SMS only when you say so.** You turn on SMS logging in the **You** tab and can turn it off any time. Gist uses SMS access only to log your bank alerts.
 
 <br>
 
@@ -100,7 +101,21 @@ Not yet. The APK here is the same app. If a Play Store version comes later, you 
 <details>
 <summary><b>Is the APK safe to install?</b></summary>
 <br>
-Download it only from this repo's <a href="../../releases">Releases</a> page. Every version is signed with the same key, so updates install over the old version cleanly.
+Download it only from this repo's <a href="../../releases">Releases</a> page. Play Protect may warn you because the app isn't from the Play Store. That's expected for apps installed directly. Every version is signed with the same key, so updates install over the old version cleanly.
+</details>
+
+<details>
+<summary><b>It says "App was denied access" when I turn on SMS</b></summary>
+<br>
+That's Android's <b>Restricted settings</b>. It applies to every app installed from an APK on Android 13 and later, not just Gist.
+<ol>
+<li>Tap <b>Close</b>.</li>
+<li>Open <b>Settings → Apps → Gist</b> (or long-press the Gist icon → <b>App info</b>).</li>
+<li>Tap <b>⋮</b> at the top right → <b>Allow restricted settings</b>, and confirm with your fingerprint or PIN.</li>
+<li>Go to <b>Permissions → SMS → Allow</b>, or turn on Bank SMS again in Gist.</li>
+</ol>
+<b>Don't see ⋮?</b> It only appears after you've tried to turn on SMS once. Go back to Gist, try Bank SMS again, then reopen App info.<br>
+<b>Still blocked?</b> If <i>Advanced Protection</i> is on (Android 16), Android won't allow it. Use <b>You → Import a file</b> instead.
 </details>
 
 <details>
